@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>SGPA Calculator</h2>
+        <div id="subjects">
+            <div class="subject">
+                <input type="number" class="credits" placeholder="Credits">
+                <select class="grades">
+                    <option value="10">O (10)</option>
+                    <option value="9">A+ (9)</option>
+                    <option value="8">A (8)</option>
+                    <option value="7">B+ (7)</option>
+                    <option value="6">B (6)</option>
+                    <option value="5">C (5)</option>
+                    <option value="0">F (0)</option>
+                    <option value="0">Ab (0)</option>
+                    <option value="0">I (0)</option>
+                </select>
+                <button class="remove-btn" onclick="removeSubject(this)">❌</button>
+            </div>
+        </div>
+        <button onclick="addSubject()">➕ Add Subject</button>
+        <button onclick="calculateSGPA()">📊 Calculate SGPA</button>
+        <h3 id="sgpaResult"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

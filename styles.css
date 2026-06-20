@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: black;
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+.subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+input, select {
+    padding: 8px;
+    border: 2px solid yellow;
+    background: black;
+    color: yellow;
+}
+button {
+    padding: 8px;
+    margin-top: 10px;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: darkorange;
+}
+.remove-btn {
+    background: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.remove-btn:hover {
+    background: darkred;
+}

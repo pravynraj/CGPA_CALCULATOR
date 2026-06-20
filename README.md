@@ -1,1 +1,2 @@
-# CGPA_CALCULATOR
+# GPA-Calculator
+SRM gpa calculator 
